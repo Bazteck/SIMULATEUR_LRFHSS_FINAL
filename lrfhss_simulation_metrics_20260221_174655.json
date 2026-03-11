@@ -1,0 +1,110 @@
+{
+    "metadata": {
+        "export_timestamp": "2026-02-21 17:46:55",
+        "simulation_duration_s": 86400,
+        "num_devices": 100,
+        "region": "EU868",
+        "coding_rate": "1/3",
+        "bandwidth_khz": 136.71875,
+        "tx_power_dbm": 14.0,
+        "distance_max_m": 1500,
+        "shadowing_std_db": 7.0,
+        "enable_dqn": false,
+        "enable_scheduler": false,
+        "dqn_model": "Nouveau mod\u00e8le",
+        "energy_module_available": true,
+        "pa_type": "SX1261_LP",
+        "battery_capacity_mah": 1000.0
+    },
+    "summary_metrics": {
+        "total_packets": 2400,
+        "successful_packets": 2379,
+        "failed_packets": 21,
+        "success_rate_pct": 99.125,
+        "collision_rate_pct": 0.0,
+        "simulated_time_s": 86347.47893415982
+    },
+    "shadowing_stats": {
+        "count": 2400,
+        "mean_db": -0.8734589493898532,
+        "std_db": 7.258813520436435,
+        "min_db": -19.603334568332684,
+        "max_db": 14.57672948454342,
+        "median_db": -0.6468990593615658,
+        "q1_db": -6.325335498643703,
+        "q3_db": 3.646747151718241,
+        "config_std_db": 7.0,
+        "rssi_mean_db": -110.8190855332501,
+        "histogram": {
+            "counts": [
+                24,
+                24,
+                48,
+                24,
+                48,
+                168,
+                240,
+                24,
+                120,
+                192,
+                288,
+                216,
+                192,
+                264,
+                72,
+                120,
+                96,
+                168,
+                48,
+                24
+            ],
+            "bin_edges": [
+                -19.603334568332684,
+                -17.894331365688878,
+                -16.185328163045074,
+                -14.476324960401268,
+                -12.767321757757463,
+                -11.058318555113658,
+                -9.349315352469851,
+                -7.6403121498260465,
+                -5.9313089471822416,
+                -4.222305744538437,
+                -2.5133025418946318,
+                -0.8042993392508251,
+                0.9047038633929816,
+                2.6137070660367847,
+                4.322710268680591,
+                6.0317134713243945,
+                7.740716673968201,
+                9.449719876612008,
+                11.158723079255811,
+                12.867726281899614,
+                14.57672948454342
+            ]
+        },
+        "normality_test": {
+            "shapiro_wilk_statistic": 0.9841630340886309,
+            "shapiro_wilk_p_value": 1.060927328541353e-15,
+            "is_normal": "False"
+        },
+        "distance_correlation": -0.032732350113755866
+    },
+    "energy_metrics": {
+        "total_energy_j": 238.55076431998893,
+        "avg_energy_per_packet_j": 0.09939615179999539,
+        "avg_current_ma": 32.0,
+        "battery_life_years": 0.0,
+        "energy_per_bit_j": 5.4019647717393297e-05
+    },
+    "dqn_performance": {
+        "decisions": 0,
+        "successes": 0,
+        "avg_power_saved_dbm": 0.0
+    },
+    "scheduler_performance": {
+        "decisions": 0,
+        "delays_applied": 0,
+        "freq_shifts_applied": 0,
+        "strategy_distribution": {}
+    }
+}

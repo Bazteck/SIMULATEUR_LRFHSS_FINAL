@@ -1,0 +1,37 @@
+# Environnement virtuel Python
+env/
+venv/
+ENV/
+.venv/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Modèles et checkpoints (fichiers trop volumineux)
+*.pth
+ddqn_models/
+ddqn_checkpoints/
+BEST/
+
+# Données volumineux
+*.csv
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.log
+*.tmp

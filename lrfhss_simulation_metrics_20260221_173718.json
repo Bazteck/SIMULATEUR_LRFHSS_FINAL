@@ -1,0 +1,105 @@
+{
+    "metadata": {
+        "export_timestamp": "2026-02-21 17:37:18",
+        "simulation_duration_s": 86400,
+        "num_devices": 1000,
+        "region": "EU868",
+        "coding_rate": "1/3",
+        "bandwidth_khz": 136.71875,
+        "tx_power_dbm": 14.0,
+        "distance_max_m": 200,
+        "shadowing_std_db": 7.0,
+        "enable_dqn": true,
+        "enable_scheduler": false,
+        "dqn_model": "ddqn_deploy",
+        "energy_module_available": true,
+        "pa_type": "SX1261_LP",
+        "battery_capacity_mah": 1000.0
+    },
+    "summary_metrics": {
+        "total_packets": 24000,
+        "successful_packets": 23945,
+        "failed_packets": 55,
+        "success_rate_pct": 99.77083333333333,
+        "collision_rate_pct": 0.004166666666666667,
+        "simulated_time_s": 86399.68736305812
+    },
+    "shadowing_stats": {
+        "count": 24000,
+        "mean_db": 0.2280036057693011,
+        "std_db": 7.13546454113277,
+        "min_db": -20.77093339816797,
+        "max_db": 21.0,
+        "median_db": -0.07660637530706538,
+        "q1_db": -4.453238052503014,
+        "q3_db": 4.9142573145939075,
+        "config_std_db": 7.0,
+        "rssi_mean_db": -97.12895939498979,
+        "histogram": {
+            "counts": [
+                96,
+                96,
+                216,
+                552,
+                744,
+                1224,
+                1752,
+                1608,
+                2304,
+                3672,
+                2520,
+                2736,
+                1656,
+                1944,
+                960,
+                960,
+                336,
+                336,
+                192,
+                96
+            ],
+            "bin_edges": [
+                -20.77093339816797,
+                -18.68238672825957,
+                -16.593840058351173,
+                -14.505293388442773,
+                -12.416746718534375,
+                -10.328200048625977,
+                -8.239653378717577,
+                -6.151106708809179,
+                -4.062560038900781,
+                -1.974013368992381,
+                0.11453330091601543,
+                2.2030799708244153,
+                4.291626640732815,
+                6.3801733106412115,
+                8.468719980549611,
+                10.557266650458008,
+                12.645813320366408,
+                14.734359990274804,
+                16.822906660183207,
+                18.911453330091604,
+                21.0
+            ]
+        },
+        "distance_correlation": 0.012160719296031504
+    },
+    "energy_metrics": {
+        "total_energy_j": 814.3163115645749,
+        "avg_energy_per_packet_j": 0.03392984631519062,
+        "avg_current_ma": 15.50175,
+        "battery_life_years": 0.0,
+        "energy_per_bit_j": 1.8440133866965598e-05
+    },
+    "dqn_performance": {
+        "decisions": 24000,
+        "successes": 0,
+        "avg_power_saved_dbm": 10.998583333333332
+    },
+    "scheduler_performance": {
+        "decisions": 0,
+        "delays_applied": 0,
+        "freq_shifts_applied": 0,
+        "strategy_distribution": {}
+    }
+}
